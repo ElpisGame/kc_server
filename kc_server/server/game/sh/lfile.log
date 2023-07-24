@@ -1,0 +1,9 @@
+create process id,machind_id:1073742848,temp_handle:0,id:1073742848
+create process id,machind_id:1073742848,temp_handle:1,id:1073742849
+create process id,machind_id:1073742848,temp_handle:2,id:1073742850
+create process id,machind_id:1073742848,temp_handle:3,id:1073742851
+create process id,machind_id:1073742848,temp_handle:4,id:1073742852
+acceptor host:127.0.0.1,port:10201
+create process id,machind_id:1073742848,temp_handle:5,id:1073742853
+create process id,machind_id:1073742848,temp_handle:6,id:1073742854
+create process id,machind_id:1073742848,temp_handle:7,id:1073742855

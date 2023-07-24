@@ -1,0 +1,28 @@
+<root>
+	<!--运行环境配置-->
+	<logfile name="./../../log"/>
+	<logger name=".record" value="./../../log"/>
+	<lua_path value="./../lua/?.lua;./../liblua/?.lua;./../lua/common/?.lua;./../running/?.lua"/>
+	<lua_cpath value="./../libc++/?.so"/>
+	<boot value="LuaProxy boot"/>
+	<loader value="./../liblua/loader.lua"/>
+	<loaderc value="./../lublua/loader.luac"/>
+	<!--当前节点的配置-->
+	<start value="game/main"/>
+	<thread value="2"/>
+	<net value="1"/>
+	<node value="1"/>
+	<!--数据库配置-->
+	<cache ip="127.0.0.1" port="3306" user="root" pass="noway" num="2" dbname="game"/>
+	<!--路由配置-->
+	<router value="127.0.0.1:10201"/>
+	<!--连接到主节点-->
+	<master platid="1" addr="127.0.0.1:9999"/>
+	<!--其他配置-->
+	<environment value="debug"/>
+	<proto addr="./../../config/sproto"/>
+	<randname addr="./../../config/randname"/>
+	<valueconfig addr="./../../config/data"/>
+	<!--游戏登录-->
+	<login addr="127.0.0.1:5201"/>
+</root>

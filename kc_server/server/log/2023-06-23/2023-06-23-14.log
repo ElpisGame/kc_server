@@ -1,0 +1,64 @@
+[m[2023-06-23 14:33:29] [INFO  ][router-1083060231](on_connect_center)connect to center  127.0.0.1:9999
+[m[2023-06-23 14:33:29] [INFO  ][center-1083060227](on_accept_socket)accept connect 16777220 127.0.0.1
+[m[2023-06-23 14:33:29] [INFO  ][router-1083060231](on_connect_socket)center connect 16777219:1083060236
+[m[2023-06-23 14:33:29] [INFO  ][router-1083060231]on_connected_center on_connected_center:class_module/ModuleRouter.cpp:477:1057676
+[m[2023-06-23 14:33:29] [INFO  ][center-1083060227](on_regist_router)connect to router 1057676 127.0.0.1:9998
+[m[2023-06-23 14:33:29] [INFO  ][router-1083060231](on_accept_socket)accept connect 16777222 127.0.0.1
+[m[2023-06-23 14:33:29] [INFO  ][center-1083060227](on_connected_router) my router connect
+[m[2023-06-23 14:33:29] [.mysql:INFO-1083060239]mysql.lua-28: .mysql Start
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060240]mysql server connected
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060241]mysql server connected
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060242]mysql server connected
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060243]mysql server connected
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060240]mysql server auth sucess
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060241]mysql server auth sucess
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060242]mysql server auth sucess
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060243]mysql server auth sucess
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]MysqlBlob.lua-224: Blob:CheckDB:: cur beforevs is 0
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060243]mysql server quit
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060242]mysql server quit
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060244]mysql server connected
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060244]mysql server auth sucess
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]MysqlBlob.lua-279: Blob:CheckUpdate:: cur version is 0
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060244]mysql server quit
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]NodeDispatch.lua-48: NodeDispatch:SetNode:: 8110 war 1
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]NodeDispatch.lua-48: NodeDispatch:SetNode:: 8110 world 1
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]DispatchCenter.lua-13: ------------- DispatchCenter:Init start -------------
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]DispatchCenter.lua-16: 	 httpp 	 1 	 1
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]DispatchCenter.lua-16: 	 war 	 1 	 1
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]DispatchCenter.lua-16: 	 world 	 1 	 1
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]DispatchCenter.lua-16: 	 mainrecord 	 1 	 1
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]DispatchCenter.lua-16: 	 httpr 	 1 	 1
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]DispatchCenter.lua-16: 	 mainplat 	 1 	 1
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]DispatchCenter.lua-18: ============== DispatchCenter:Init end ==============
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]center.lua-24: center1 Start
+[m[2023-06-23 14:33:30] [INFO  ][center-1083060227](on_connect_socket)router 1057676 connect 16777221
+[m[2023-06-23 14:33:30] [INFO  ][router-1082046471](on_connect_center)connect to center  127.0.0.1:8111
+[m[2023-06-23 14:33:30] [INFO  ][router-1082046471](on_connect_socket)center connect 16777219:1082046476
+[m[2023-06-23 14:33:30] [INFO  ][router-1082046471]on_connected_center on_connected_center:class_module/ModuleRouter.cpp:477:1056686
+[m[2023-06-23 14:33:30] [INFO  ][center-1082046467](on_accept_socket)accept connect 16777220 127.0.0.1
+[m[2023-06-23 14:33:30] [cross1_8110:INFO-1082046478]CenterMgr.lua-12: CenterMgr:Init 127.0.0.1:9999
+[m[2023-06-23 14:33:30] [cross1_8110:INFO-1082046478]cross.lua-24: cross1_8110 Start
+[m[2023-06-23 14:33:30] [INFO  ][center-1083060227](on_accept_socket)accept connect 16777229 127.0.0.1
+[m[2023-06-23 14:33:30] [INFO  ][center-1082046467](on_regist_router)connect to router 1056686 127.0.0.1:8112
+[m[2023-06-23 14:33:30] [INFO  ][router-1082046471](on_connect_center)connect to center  127.0.0.1:9999
+[m[2023-06-23 14:33:30] [INFO  ][router-1082046471](on_accept_socket)accept connect 16777222 127.0.0.1
+[m[2023-06-23 14:33:30] [INFO  ][center-1082046467](on_connected_router) my router connect
+[m[2023-06-23 14:33:30] [INFO  ][center-1082046467](on_connect_socket)router 1056686 connect 16777221
+[m[2023-06-23 14:33:30] [INFO  ][router-1082046471](on_connect_socket)center connect 16777224:1082046476
+[m[2023-06-23 14:33:30] [INFO  ][router-1082046471]on_connected_center on_connected_center:class_module/ModuleRouter.cpp:477:1056686
+[m[2023-06-23 14:33:30] [INFO  ][center-1083060227](on_regist_router)connect to router 1056686 127.0.0.1:8112
+[m[2023-06-23 14:33:30] [INFO  ][router-1082046471](on_accept_socket)accept connect 16777225 127.0.0.1
+[m[2023-06-23 14:33:31] [INFO  ][center-1083060227](on_connected_router) new router connect
+[m[2023-06-23 14:33:31] [INFO  ][center-1083060227](on_connect_socket)router 1056686 connect 16777230
+[m[2023-06-23 14:33:31] [INFO  ][router-1083060231](on_regist_router)connect to router 1056686 127.0.0.1:8112
+[m[2023-06-23 14:33:31] [INFO  ][router-1082046471](on_regist_router)connect to router 1057676 127.0.0.1:9998
+[m[2023-06-23 14:33:31] [INFO  ][router-1082046471](on_accept_socket)accept connect 16777227 127.0.0.1
+[m[2023-06-23 14:33:31] [INFO  ][router-1082046471](on_connect_socket)router 1057676 connect 16777226
+[m[2023-06-23 14:33:31] [INFO  ][router-1083060231](on_accept_socket)accept connect 16777232 127.0.0.1
+[m[2023-06-23 14:33:31] [INFO  ][router-1083060231](on_connect_socket)router 1056686 connect 16777231
+[m[2023-06-23 14:33:32] [cross1_8110:INFO-1082046478]cross.lua-37: cross1_8110 Stop
+[m[2023-06-23 14:33:32] [31m[ERROR  ][net-0]receive signal quit
+[m
+[m[2023-06-23 14:33:32] [.mysql:INFO-1083060239]mysql.lua-49: .mysql Stop
+[m[2023-06-23 14:33:32] [center1:INFO-1083060238]center.lua-37: center1 Stop

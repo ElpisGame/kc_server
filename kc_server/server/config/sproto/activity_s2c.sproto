@@ -1,0 +1,33 @@
+#服务端->客户端
+#1答题
+#活动数据
+sc_activity_info_res 22001 {
+	request {
+		answer 			0 : string #状元的名字
+	}
+}
+
+#提示活动开启
+sc_activity_msg 22002 {
+	request {
+		activity 			0 : integer #活动编号
+	}
+}
+
+.activity_brief {
+	activity 			0 : integer # 活动编号
+	isopen				1 : boolean # 是否开启
+}
+
+#活动大厅
+sc_activity_hall 22003 {
+	request {
+		activitys 			0 : *activity_brief
+	}
+}
+#测试协议返回
+sc_activity_test_msg 22004 {
+	request {
+		activity 			0 : integer #测试返回数据
+	}
+}

@@ -1,0 +1,74 @@
+create process id,machind_id:1083060224,temp_handle:0,id:1083060224
+create process id,machind_id:1083060224,temp_handle:1,id:1083060225
+create process id,machind_id:1083060224,temp_handle:2,id:1083060226
+create process id,machind_id:1083060224,temp_handle:3,id:1083060227
+create process id,machind_id:1083060224,temp_handle:4,id:1083060228
+acceptor host:127.0.0.1,port:9999
+create process id,machind_id:1083060224,temp_handle:5,id:1083060229
+create process id,machind_id:1083060224,temp_handle:6,id:1083060230
+create process id,machind_id:1083060224,temp_handle:7,id:1083060231
+create process id,machind_id:1083060224,temp_handle:8,id:1083060232
+acceptor host:127.0.0.1,port:9998
+create process id,machind_id:1083060224,temp_handle:9,id:1083060233
+create process id,machind_id:1083060224,temp_handle:10,id:1083060234
+create process id,machind_id:1083060224,temp_handle:11,id:1083060235
+create process id,machind_id:1083060224,temp_handle:12,id:1083060236
+[m[2023-06-23 14:33:29] [INFO  ][router-1083060231](on_connect_center)connect to center  127.0.0.1:9999
+[m[2023-06-23 14:33:29] [INFO  ][center-1083060227](on_accept_socket)accept connect 16777220 127.0.0.1
+[m[2023-06-23 14:33:29] [INFO  ][router-1083060231](on_connect_socket)center connect 16777219:1083060236
+[m[2023-06-23 14:33:29] [INFO  ][router-1083060231]on_connected_center on_connected_center:class_module/ModuleRouter.cpp:477:1057676
+create process id,machind_id:1083060224,temp_handle:13,id:1083060237
+[m[2023-06-23 14:33:29] [INFO  ][center-1083060227](on_regist_router)connect to router 1057676 127.0.0.1:9998
+[m[2023-06-23 14:33:29] [INFO  ][router-1083060231](on_accept_socket)accept connect 16777222 127.0.0.1
+create process id,machind_id:1083060224,temp_handle:14,id:1083060238
+[m[2023-06-23 14:33:29] [INFO  ][center-1083060227](on_connected_router) my router connect
+create process id,machind_id:1083060224,temp_handle:15,id:1083060239
+create process id,machind_id:1083060224,temp_handle:16,id:1083060240
+create process id,machind_id:1083060224,temp_handle:17,id:1083060241
+[m[2023-06-23 14:33:29] [.mysql:INFO-1083060239]mysql.lua-28: .mysql Start
+create process id,machind_id:1083060224,temp_handle:18,id:1083060242
+create process id,machind_id:1083060224,temp_handle:19,id:1083060243
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060240]mysql server connected
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060241]mysql server connected
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060242]mysql server connected
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060243]mysql server connected
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060240]mysql server auth sucess
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060241]mysql server auth sucess
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060242]mysql server auth sucess
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060243]mysql server auth sucess
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]MysqlBlob.lua-224: Blob:CheckDB:: cur beforevs is 0
+create process id,machind_id:1083060224,temp_handle:20,id:1083060244
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060243]mysql server quit
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060242]mysql server quit
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060244]mysql server connected
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060244]mysql server auth sucess
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]MysqlBlob.lua-279: Blob:CheckUpdate:: cur version is 0
+Blob:InitDBID: serverdbid, platdbid	0	0
+[m[2023-06-23 14:33:29] [INFO  ][mysql-1083060244]mysql server quit
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]NodeDispatch.lua-48: NodeDispatch:SetNode:: 8110 war 1
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]NodeDispatch.lua-48: NodeDispatch:SetNode:: 8110 world 1
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]DispatchCenter.lua-13: ------------- DispatchCenter:Init start -------------
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]DispatchCenter.lua-16: 	 httpp 	 1 	 1
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]DispatchCenter.lua-16: 	 war 	 1 	 1
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]DispatchCenter.lua-16: 	 world 	 1 	 1
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]DispatchCenter.lua-16: 	 mainrecord 	 1 	 1
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]DispatchCenter.lua-16: 	 httpr 	 1 	 1
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]DispatchCenter.lua-16: 	 mainplat 	 1 	 1
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]DispatchCenter.lua-18: ============== DispatchCenter:Init end ==============
+[m[2023-06-23 14:33:29] [center1:INFO-1083060238]center.lua-24: center1 Start
+[m[2023-06-23 14:33:30] [INFO  ][center-1083060227](on_connect_socket)router 1057676 connect 16777221
+register name from center:center1:1083060238
+[m[2023-06-23 14:33:30] [INFO  ][center-1083060227](on_accept_socket)accept connect 16777229 127.0.0.1
+[m[2023-06-23 14:33:30] [INFO  ][center-1083060227](on_regist_router)connect to router 1056686 127.0.0.1:8112
+register name from center:cross1_8110:1082046478
+send center name:center1:1083060238
+[m[2023-06-23 14:33:31] [INFO  ][center-1083060227](on_connected_router) new router connect
+[m[2023-06-23 14:33:31] [INFO  ][center-1083060227](on_connect_socket)router 1056686 connect 16777230
+[m[2023-06-23 14:33:31] [INFO  ][router-1083060231](on_regist_router)connect to router 1056686 127.0.0.1:8112
+[m[2023-06-23 14:33:31] [INFO  ][router-1083060231](on_accept_socket)accept connect 16777232 127.0.0.1
+[m[2023-06-23 14:33:31] [INFO  ][router-1083060231](on_connect_socket)router 1056686 connect 16777231
+[m[2023-06-23 14:33:32] [31m[ERROR  ][net-0]receive signal quit
+[m
+[m[2023-06-23 14:33:32] [.mysql:INFO-1083060239]mysql.lua-49: .mysql Stop
+[m[2023-06-23 14:33:32] [center1:INFO-1083060238]center.lua-37: center1 Stop
+stop server sucess

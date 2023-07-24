@@ -1,0 +1,38 @@
+create process id,machind_id:1082046464,temp_handle:0,id:1082046464
+create process id,machind_id:1082046464,temp_handle:1,id:1082046465
+create process id,machind_id:1082046464,temp_handle:2,id:1082046466
+create process id,machind_id:1082046464,temp_handle:3,id:1082046467
+create process id,machind_id:1082046464,temp_handle:4,id:1082046468
+acceptor host:127.0.0.1,port:8111
+create process id,machind_id:1082046464,temp_handle:5,id:1082046469
+create process id,machind_id:1082046464,temp_handle:6,id:1082046470
+create process id,machind_id:1082046464,temp_handle:7,id:1082046471
+create process id,machind_id:1082046464,temp_handle:8,id:1082046472
+acceptor host:127.0.0.1,port:8112
+create process id,machind_id:1082046464,temp_handle:9,id:1082046473
+create process id,machind_id:1082046464,temp_handle:10,id:1082046474
+create process id,machind_id:1082046464,temp_handle:11,id:1082046475
+create process id,machind_id:1082046464,temp_handle:12,id:1082046476
+[m[2023-06-23 14:33:30] [INFO  ][router-1082046471](on_connect_center)connect to center  127.0.0.1:8111
+create process id,machind_id:1082046464,temp_handle:13,id:1082046477
+[m[2023-06-23 14:33:30] [INFO  ][router-1082046471](on_connect_socket)center connect 16777219:1082046476
+[m[2023-06-23 14:33:30] [INFO  ][router-1082046471]on_connected_center on_connected_center:class_module/ModuleRouter.cpp:477:1056686
+[m[2023-06-23 14:33:30] [INFO  ][center-1082046467](on_accept_socket)accept connect 16777220 127.0.0.1
+create process id,machind_id:1082046464,temp_handle:14,id:1082046478
+[m[2023-06-23 14:33:30] [cross1_8110:INFO-1082046478]CenterMgr.lua-12: CenterMgr:Init 127.0.0.1:9999
+create process id,machind_id:1082046464,temp_handle:15,id:1082046479
+[m[2023-06-23 14:33:30] [cross1_8110:INFO-1082046478]cross.lua-24: cross1_8110 Start
+[m[2023-06-23 14:33:30] [INFO  ][center-1082046467](on_regist_router)connect to router 1056686 127.0.0.1:8112
+[m[2023-06-23 14:33:30] [INFO  ][router-1082046471](on_connect_center)connect to center  127.0.0.1:9999
+[m[2023-06-23 14:33:30] [INFO  ][router-1082046471](on_accept_socket)accept connect 16777222 127.0.0.1
+[m[2023-06-23 14:33:30] [INFO  ][center-1082046467](on_connected_router) my router connect
+[m[2023-06-23 14:33:30] [INFO  ][center-1082046467](on_connect_socket)router 1056686 connect 16777221
+[m[2023-06-23 14:33:30] [INFO  ][router-1082046471](on_connect_socket)center connect 16777224:1082046476
+[m[2023-06-23 14:33:30] [INFO  ][router-1082046471]on_connected_center on_connected_center:class_module/ModuleRouter.cpp:477:1056686
+[m[2023-06-23 14:33:30] [INFO  ][router-1082046471](on_accept_socket)accept connect 16777225 127.0.0.1
+[m[2023-06-23 14:33:31] [INFO  ][router-1082046471](on_regist_router)connect to router 1057676 127.0.0.1:9998
+register name from center:center1:1083060238
+[m[2023-06-23 14:33:31] [INFO  ][router-1082046471](on_accept_socket)accept connect 16777227 127.0.0.1
+[m[2023-06-23 14:33:31] [INFO  ][router-1082046471](on_connect_socket)router 1057676 connect 16777226
+[m[2023-06-23 14:33:32] [cross1_8110:INFO-1082046478]cross.lua-37: cross1_8110 Stop
+stop server sucess

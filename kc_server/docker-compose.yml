@@ -1,0 +1,31 @@
+version: '3'
+services:
+  centos:
+    restart: always
+    image: misoag/gameserver
+    deploy:
+      resources:              # 资源限制
+        limits:               # 设置容器的资源限制
+          cpus: "0.5"         # 设置该容器最多只能使用 50% 的 CPU
+          memory: 4096M       # 设置该容器最多只能使用 4096M 的内存空间
+        reservations:         # 设置为容器预留的系统资源(随时可用)
+          memory: 1024M       # 为该容器保留 20M 的内存空间
+    container_name: gameserver
+    privileged: true
+    stdin_open: true
+    tty: true
+    entrypoint: ["sh","/entrypoint.sh"]
+    environment:
+      TZ: Asia/Shanghai
+    ports:
+      - 90:80                             #http
+#      - 443:443                           #https
+      - 3307:3306                         #mysql
+      - 888:888                           #phpMyAdmin
+      - 8888:8888                         #btPanel
+      - 5201:5201                         #game login port
+    volumes:
+      - ./mysql:/www/server/data              #数据库文件
+      - ./wwwlogs:/www/wwwlogs                #日志
+      - ./gm:/www/wwwroot                     #game manager
+      - ./server:/server                      #game server

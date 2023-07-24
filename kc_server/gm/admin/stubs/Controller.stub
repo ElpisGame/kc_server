@@ -1,0 +1,57 @@
+<?php
+
+namespace App\Http\Controllers\Admin;
+use App\Http\Controllers\Controller;
+use App\Http\Controllers\Admin\Requests\{{modelName}}Request;
+use App\Http\Controllers\Admin\Resources\{{modelName}}Resource;
+use Illuminate\Http\Resources\Json\JsonResource;
+use App\Models\{{modelName}};
+
+class {{modelName}}Controller extends Controller
+{
+    public function __construct()
+    {
+        //$this->middleware(['role:超级管理员|管理员']);
+    }
+
+    public function index({{modelName}}Request $request)
+    {
+        $query = {{modelName}}::query();
+        #search
+{{search_function_snippet}}
+        #pagination
+        $perPage = $request->input('perPage', 10);
+        $currentPage = $request->input('currentPage', 1);
+        $query->orderBy("id","desc");
+        ${{modelNamePluralLowerCase}} = $query->paginate($perPage, $columns = ['*'], $pageName = 'page', $page = $currentPage);
+        #return
+        return {{modelName}}Resource::collection(${{modelNamePluralLowerCase}});
+    }
+
+    public function store({{modelName}}Request $request)
+    {
+        $fields = $request->all();
+        ${{modelNameSingularLowerCase}} = {{modelName}}::create($fields);
+        return new {{modelName}}Resource(${{modelNameSingularLowerCase}});
+    }
+
+    public function show($id)
+    {
+        ${{modelNameSingularLowerCase}} = {{modelName}}::findOrFail($id);
+        return new {{modelName}}Resource(${{modelNameSingularLowerCase}});
+    }
+
+    public function update({{modelName}}Request $request, $id)
+    {
+        ${{modelNameSingularLowerCase}} = {{modelName}}::findOrFail($id);
+        $fields = $request->all();
+        ${{modelNameSingularLowerCase}}->update($fields);
+        return new {{modelName}}Resource(${{modelNameSingularLowerCase}});
+    }
+
+    public function destroy($id)
+    {
+        {{modelName}}::destroy($id);
+        return new JsonResource(null);
+    }
+}

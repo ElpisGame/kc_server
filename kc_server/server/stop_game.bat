@@ -1,0 +1,1 @@
+docker exec gameserver /server/game/sh/stop.sh
